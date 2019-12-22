@@ -1,0 +1,9 @@
+https://www.jetbrains.com/help/pycharm/creating-and-running-setup-py.html
+https://stackoverflow.com/questions/2026395/how-to-create-python-egg-file
+
+setup .py file has to be on main folder (one level above src)
+Pls follow above links to create setup.py ( provide package name, description..)
+
+Once the setup.py is created , then create .egg file. 
+
+
