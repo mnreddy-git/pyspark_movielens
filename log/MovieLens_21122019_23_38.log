@@ -1,0 +1,55 @@
+2019-12-21 23:38:48,900 : DEBUG : MovieLensAnalysis.util.SparkIntializn : <ML - sparkInitlzn>  Spark Session is created , version is 2.3.0
+2019-12-21 23:38:48,903 : DEBUG : __main__ : <ML>  Spark Initialization is Done 
+2019-12-21 23:38:48,903 : DEBUG : __main__ : <ML>  Spark Initialization is Done 
+2019-12-21 23:38:48,904 : DEBUG : __main__ : <ML>  Spark Version is 2.3.0
+2019-12-21 23:38:48,904 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is movieid|movietitle|releasedate|videoreleasedate|IMDbURL >
+2019-12-21 23:38:48,904 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:38:48,904 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(movieid,StringType,true), StructField(movietitle,StringType,true), StructField(releasedate,StringType,true), StructField(videoreleasedate,StringType,true), StructField(IMDbURL,StringType,true)]
+2019-12-21 23:38:48,904 : DEBUG : MovieItemTransformation : <ML-generateItemSchema><nonGenreStructSchema> is [StructField(movieid,StringType,true), StructField(movietitle,StringType,true), StructField(releasedate,StringType,true), StructField(videoreleasedate,StringType,true), StructField(IMDbURL,StringType,true)]
+2019-12-21 23:38:48,905 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is unknown|Action|Adventure|Animation|Children|Comedy|Crime|Documentary|Drama|Fantasy|FilmNoir|Horror|Musical|Mystery|Romance|SciFi|Thriller|War|Western >
+2019-12-21 23:38:48,905 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:38:48,905 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(unknown,IntegerType,true), StructField(Action,IntegerType,true), StructField(Adventure,IntegerType,true), StructField(Animation,IntegerType,true), StructField(Children,IntegerType,true), StructField(Comedy,IntegerType,true), StructField(Crime,IntegerType,true), StructField(Documentary,IntegerType,true), StructField(Drama,IntegerType,true), StructField(Fantasy,IntegerType,true), StructField(FilmNoir,IntegerType,true), StructField(Horror,IntegerType,true), StructField(Musical,IntegerType,true), StructField(Mystery,IntegerType,true), StructField(Romance,IntegerType,true), StructField(SciFi,IntegerType,true), StructField(Thriller,IntegerType,true), StructField(War,IntegerType,true), StructField(Western,IntegerType,true)]
+2019-12-21 23:38:48,905 : DEBUG : MovieItemTransformation : <ML-generateItemSchema><genreStructSchema> is [StructField(unknown,IntegerType,true), StructField(Action,IntegerType,true), StructField(Adventure,IntegerType,true), StructField(Animation,IntegerType,true), StructField(Children,IntegerType,true), StructField(Comedy,IntegerType,true), StructField(Crime,IntegerType,true), StructField(Documentary,IntegerType,true), StructField(Drama,IntegerType,true), StructField(Fantasy,IntegerType,true), StructField(FilmNoir,IntegerType,true), StructField(Horror,IntegerType,true), StructField(Musical,IntegerType,true), StructField(Mystery,IntegerType,true), StructField(Romance,IntegerType,true), StructField(SciFi,IntegerType,true), StructField(Thriller,IntegerType,true), StructField(War,IntegerType,true), StructField(Western,IntegerType,true)]
+2019-12-21 23:38:48,907 : DEBUG : MovieItemTransformation : <ML-generateItemSchema><itemSchema is > - StructType(List(StructField(movieid,StringType,true),StructField(movietitle,StringType,true),StructField(releasedate,StringType,true),StructField(videoreleasedate,StringType,true),StructField(IMDbURL,StringType,true),StructField(unknown,IntegerType,true),StructField(Action,IntegerType,true),StructField(Adventure,IntegerType,true),StructField(Animation,IntegerType,true),StructField(Children,IntegerType,true),StructField(Comedy,IntegerType,true),StructField(Crime,IntegerType,true),StructField(Documentary,IntegerType,true),StructField(Drama,IntegerType,true),StructField(Fantasy,IntegerType,true),StructField(FilmNoir,IntegerType,true),StructField(Horror,IntegerType,true),StructField(Musical,IntegerType,true),StructField(Mystery,IntegerType,true),StructField(Romance,IntegerType,true),StructField(SciFi,IntegerType,true),StructField(Thriller,IntegerType,true),StructField(War,IntegerType,true),StructField(Western,IntegerType,true)))
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is userid|age >
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(userid,IntegerType,true), StructField(age,IntegerType,true)]
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is gender|occupation|zipcode >
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:38:52,476 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(gender,StringType,true), StructField(occupation,StringType,true), StructField(zipcode,StringType,true)]
+2019-12-21 23:38:52,477 : DEBUG : MovieItemTransformation : <ML-generateUserSchema><userSchema is StructType(List(StructField(userid,IntegerType,true),StructField(age,IntegerType,true),StructField(gender,StringType,true),StructField(occupation,StringType,true),StructField(zipcode,StringType,true)))> 
+2019-12-21 23:38:52,513 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is user_id|item_id|rating|timestamp >
+2019-12-21 23:38:52,515 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:38:52,515 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(user_id,IntegerType,true), StructField(item_id,IntegerType,true), StructField(rating,IntegerType,true), StructField(timestamp,IntegerType,true)]
+2019-12-21 23:38:52,515 : DEBUG : MovieItemTransformation : <ML-generateUserDataSchema><userDataSchemaStructType> is StructType(List(StructField(user_id,IntegerType,true),StructField(item_id,IntegerType,true),StructField(rating,IntegerType,true),StructField(timestamp,IntegerType,true)))
+2019-12-21 23:39:22,997 : DEBUG : MovieItemTransformation : <ML -createStructSchema><schemaString is Genre|countOfMovies >
+2019-12-21 23:39:22,997 : DEBUG : MovieItemTransformation : <ML -createStructSchema><delimiter is |>
+2019-12-21 23:39:22,997 : DEBUG : MovieItemTransformation : <ML -createStructSchema><structFieldList is > [StructField(Genre,StringType,true), StructField(countOfMovies,StringType,true)]
+2019-12-21 23:39:23,073 : DEBUG : MovieItemTransformation : condition is unknown==1
+2019-12-21 23:39:23,345 : DEBUG : MovieItemTransformation : condition is Action==1
+2019-12-21 23:39:23,401 : DEBUG : MovieItemTransformation : condition is Adventure==1
+2019-12-21 23:39:23,463 : DEBUG : MovieItemTransformation : condition is Animation==1
+2019-12-21 23:39:23,539 : DEBUG : MovieItemTransformation : condition is Children==1
+2019-12-21 23:39:23,601 : DEBUG : MovieItemTransformation : condition is Comedy==1
+2019-12-21 23:39:23,688 : DEBUG : MovieItemTransformation : condition is Crime==1
+2019-12-21 23:39:23,750 : DEBUG : MovieItemTransformation : condition is Documentary==1
+2019-12-21 23:39:23,805 : DEBUG : MovieItemTransformation : condition is Drama==1
+2019-12-21 23:39:23,880 : DEBUG : MovieItemTransformation : condition is Fantasy==1
+2019-12-21 23:39:23,944 : DEBUG : MovieItemTransformation : condition is FilmNoir==1
+2019-12-21 23:39:24,000 : DEBUG : MovieItemTransformation : condition is Horror==1
+2019-12-21 23:39:24,075 : DEBUG : MovieItemTransformation : condition is Musical==1
+2019-12-21 23:39:24,217 : DEBUG : MovieItemTransformation : condition is Mystery==1
+2019-12-21 23:39:24,295 : DEBUG : MovieItemTransformation : condition is Romance==1
+2019-12-21 23:39:24,357 : DEBUG : MovieItemTransformation : condition is SciFi==1
+2019-12-21 23:39:24,413 : DEBUG : MovieItemTransformation : condition is Thriller==1
+2019-12-21 23:39:24,469 : DEBUG : MovieItemTransformation : condition is War==1
+2019-12-21 23:39:24,555 : DEBUG : MovieItemTransformation : condition is Western==1
+2019-12-21 23:39:24,612 : DEBUG : MovieItemTransformation : Schema is None
+2019-12-21 23:42:52,464 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF genderAggCntDF module is SUCCESS
+2019-12-21 23:42:55,658 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF occupAggCntDF module is SUCCESS
+2019-12-21 23:44:04,937 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF findTopOccupFromRating module is SUCCESS
+2019-12-21 23:44:19,244 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF findTopMoviesPeryrByRating module is SUCCESS
+2019-12-21 23:44:28,608 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF findTopMoviesOveraAll module is SUCCESS
+2019-12-21 23:45:29,711 : DEBUG : MovieItemTransformation : <ML> - WRITE STATUS OF findCountOfMveGenreWise module is SUCCESS
+2019-12-21 23:45:29,711 : DEBUG : MovieLensAnalysis.util.SparkIntializn : <ML - sparkInitlzn>  Called Resource cleanUp
+2019-12-21 23:45:45,316 : DEBUG : MovieLensAnalysis.util.SparkIntializn :  <ML - sparkInitlzn>  Resources are cleaned

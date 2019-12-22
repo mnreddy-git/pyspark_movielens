@@ -1,0 +1,33 @@
+movieLens:
+  delimiters:
+    PIPE_DELIMITER: '|'
+    TAB_DELIMITER: '\t'
+    COMMA_DELIMITER: ','
+    DOLLAR_DELIMITER: '$'
+  schemaString:
+    nonGenreString: "movieid|movietitle|releasedate|videoreleasedate|IMDbURL"
+    genreString: "unknown|Action|Adventure|Animation|Children|Comedy|Crime|Documentary|Drama|Fantasy|FilmNoir|Horror|Musical|Mystery|Romance|SciFi|Thriller|War|Western"
+    userSchemaIntegers: "userid|age"
+    userSchemaStrings: "gender|occupation|zipcode"
+    userDataColumnsIntegers: "user_id|item_id|rating|timestamp"
+    genreCountSchemaStr: "Genre|countOfMovies"
+  paths:
+    BASE_LOCATION: 'G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\Movie_lens_100K_dataset\\'
+    TARGET_LOCATION: 'G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\{}'
+  options:
+    HEADER_FALSE: 'false'
+    HEADER_TRUE: 'true'
+    INFERSCHEMA_TRUE: 'true'
+    INFERSCHEMA_FALSE: 'false'
+    NUMPARTITIONSTOWRITE: 1
+    NO_COMPRESSION: "none"
+    GZIP_COMPRESSION: "gzip"
+    SNAPPY_COMPRESSION: "snappy"
+    OVERWRITE_MODE: 'overwrite'
+    IGNORE_MODE: "ignore"
+    APPEND_MODE: "append"
+  types:
+    STRING_TYPE: STRING_TYPE
+    INTEGER_TYPE: INTEGER_TYPE
+    STRUCT_TYPE: STRUCT_TYPE
+    STRUCT_FIELD: STRUCT_FIELD

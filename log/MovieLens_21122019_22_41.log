@@ -1,0 +1,60 @@
+2019-12-21 22:41:31,239 : DEBUG : MovieLensAnalysis.util.customLogger : <ML - sparkInitlzn>  Spark Session is created , version is 2.3.0
+2019-12-21 22:41:31,240 : DEBUG : MovieLensAnalysis.util.customLogger : <ML>  Spark Initialization is Done 
+2019-12-21 22:41:31,240 : DEBUG : MovieLensAnalysis.util.customLogger : <ML>  Spark Initialization is Done 
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is movieid|movietitle|releasedate|videoreleasedate|IMDbURL >
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(movieid,StringType,true), StructField(movietitle,StringType,true), StructField(releasedate,StringType,true), StructField(videoreleasedate,StringType,true), StructField(IMDbURL,StringType,true)]
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML-generateItemSchema><nonGenreStructSchema> is [StructField(movieid,StringType,true), StructField(movietitle,StringType,true), StructField(releasedate,StringType,true), StructField(videoreleasedate,StringType,true), StructField(IMDbURL,StringType,true)]
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is unknown|Action|Adventure|Animation|Children|Comedy|Crime|Documentary|Drama|Fantasy|FilmNoir|Horror|Musical|Mystery|Romance|SciFi|Thriller|War|Western >
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(unknown,IntegerType,true), StructField(Action,IntegerType,true), StructField(Adventure,IntegerType,true), StructField(Animation,IntegerType,true), StructField(Children,IntegerType,true), StructField(Comedy,IntegerType,true), StructField(Crime,IntegerType,true), StructField(Documentary,IntegerType,true), StructField(Drama,IntegerType,true), StructField(Fantasy,IntegerType,true), StructField(FilmNoir,IntegerType,true), StructField(Horror,IntegerType,true), StructField(Musical,IntegerType,true), StructField(Mystery,IntegerType,true), StructField(Romance,IntegerType,true), StructField(SciFi,IntegerType,true), StructField(Thriller,IntegerType,true), StructField(War,IntegerType,true), StructField(Western,IntegerType,true)]
+2019-12-21 22:41:31,243 : DEBUG : MovieLensAnalysis.util.customLogger : <ML-generateItemSchema><genreStructSchema> is [StructField(unknown,IntegerType,true), StructField(Action,IntegerType,true), StructField(Adventure,IntegerType,true), StructField(Animation,IntegerType,true), StructField(Children,IntegerType,true), StructField(Comedy,IntegerType,true), StructField(Crime,IntegerType,true), StructField(Documentary,IntegerType,true), StructField(Drama,IntegerType,true), StructField(Fantasy,IntegerType,true), StructField(FilmNoir,IntegerType,true), StructField(Horror,IntegerType,true), StructField(Musical,IntegerType,true), StructField(Mystery,IntegerType,true), StructField(Romance,IntegerType,true), StructField(SciFi,IntegerType,true), StructField(Thriller,IntegerType,true), StructField(War,IntegerType,true), StructField(Western,IntegerType,true)]
+2019-12-21 22:41:31,244 : DEBUG : MovieLensAnalysis.util.customLogger : <ML-generateItemSchema><itemSchema is > - StructType(List(StructField(movieid,StringType,true),StructField(movietitle,StringType,true),StructField(releasedate,StringType,true),StructField(videoreleasedate,StringType,true),StructField(IMDbURL,StringType,true),StructField(unknown,IntegerType,true),StructField(Action,IntegerType,true),StructField(Adventure,IntegerType,true),StructField(Animation,IntegerType,true),StructField(Children,IntegerType,true),StructField(Comedy,IntegerType,true),StructField(Crime,IntegerType,true),StructField(Documentary,IntegerType,true),StructField(Drama,IntegerType,true),StructField(Fantasy,IntegerType,true),StructField(FilmNoir,IntegerType,true),StructField(Horror,IntegerType,true),StructField(Musical,IntegerType,true),StructField(Mystery,IntegerType,true),StructField(Romance,IntegerType,true),StructField(SciFi,IntegerType,true),StructField(Thriller,IntegerType,true),StructField(War,IntegerType,true),StructField(Western,IntegerType,true)))
+2019-12-21 22:41:35,380 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is userid|age >
+2019-12-21 22:41:35,380 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:41:35,380 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(userid,IntegerType,true), StructField(age,IntegerType,true)]
+2019-12-21 22:41:35,380 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is gender|occupation|zipcode >
+2019-12-21 22:41:35,381 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:41:35,381 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(gender,StringType,true), StructField(occupation,StringType,true), StructField(zipcode,StringType,true)]
+2019-12-21 22:41:35,381 : DEBUG : MovieLensAnalysis.util.customLogger : <ML-generateUserSchema><userSchema is StructType(List(StructField(userid,IntegerType,true),StructField(age,IntegerType,true),StructField(gender,StringType,true),StructField(occupation,StringType,true),StructField(zipcode,StringType,true)))> 
+2019-12-21 22:41:35,433 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is user_id|item_id|rating|timestamp >
+2019-12-21 22:41:35,433 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:41:35,433 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(user_id,IntegerType,true), StructField(item_id,IntegerType,true), StructField(rating,IntegerType,true), StructField(timestamp,IntegerType,true)]
+2019-12-21 22:41:35,434 : DEBUG : MovieLensAnalysis.util.customLogger : <ML-generateUserDataSchema><userDataSchemaStructType> is StructType(List(StructField(user_id,IntegerType,true),StructField(item_id,IntegerType,true),StructField(rating,IntegerType,true),StructField(timestamp,IntegerType,true)))
+2019-12-21 22:42:10,025 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><schemaString is Genre|countOfMovies >
+2019-12-21 22:42:10,025 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><delimiter is |>
+2019-12-21 22:42:10,025 : DEBUG : MovieLensAnalysis.util.customLogger : <ML -createStructSchema><structFieldList is > [StructField(Genre,StringType,true), StructField(countOfMovies,StringType,true)]
+2019-12-21 22:42:10,112 : DEBUG : MovieLensAnalysis.util.customLogger : condition is unknown==1
+2019-12-21 22:42:10,263 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Action==1
+2019-12-21 22:42:10,318 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Adventure==1
+2019-12-21 22:42:10,378 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Animation==1
+2019-12-21 22:42:10,431 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Children==1
+2019-12-21 22:42:10,486 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Comedy==1
+2019-12-21 22:42:10,641 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Crime==1
+2019-12-21 22:42:10,694 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Documentary==1
+2019-12-21 22:42:10,733 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Drama==1
+2019-12-21 22:42:10,815 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Fantasy==1
+2019-12-21 22:42:10,878 : DEBUG : MovieLensAnalysis.util.customLogger : condition is FilmNoir==1
+2019-12-21 22:42:10,930 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Horror==1
+2019-12-21 22:42:11,009 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Musical==1
+2019-12-21 22:42:11,059 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Mystery==1
+2019-12-21 22:42:11,124 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Romance==1
+2019-12-21 22:42:11,207 : DEBUG : MovieLensAnalysis.util.customLogger : condition is SciFi==1
+2019-12-21 22:42:11,266 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Thriller==1
+2019-12-21 22:42:11,424 : DEBUG : MovieLensAnalysis.util.customLogger : condition is War==1
+2019-12-21 22:42:11,540 : DEBUG : MovieLensAnalysis.util.customLogger : condition is Western==1
+2019-12-21 22:42:11,717 : DEBUG : MovieLensAnalysis.util.customLogger : Schema is None
+2019-12-21 22:45:32,558 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\genderAggCntDF//
+2019-12-21 22:45:35,441 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF genderAggCntDF module is SUCCESS
+2019-12-21 22:45:35,443 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\occupAggCntDF//
+2019-12-21 22:45:39,579 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF occupAggCntDF module is SUCCESS
+2019-12-21 22:45:39,582 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\findTopOccupFromRating//
+2019-12-21 22:46:30,990 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF findTopOccupFromRating module is SUCCESS
+2019-12-21 22:46:30,990 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\findTopMoviesPeryrByRating//
+2019-12-21 22:46:48,112 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF findTopMoviesPeryrByRating module is SUCCESS
+2019-12-21 22:46:48,112 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\findTopMoviesOveraAll//
+2019-12-21 22:46:57,799 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF findTopMoviesOveraAll module is SUCCESS
+2019-12-21 22:46:57,799 : DEBUG : MovieLensAnalysis.util.customLogger : Writing to path G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\findCountOfMveGenreWise//
+2019-12-21 22:48:05,233 : DEBUG : MovieLensAnalysis.util.customLogger : <ML> - WRITE STATUS OF findCountOfMveGenreWise module is SUCCESS
+2019-12-21 22:48:05,233 : DEBUG : MovieLensAnalysis.util.customLogger : <ML - sparkInitlzn>  Called Resource cleanUp
+2019-12-21 22:48:43,533 : DEBUG : MovieLensAnalysis.util.customLogger :  <ML - sparkInitlzn>  Resources are cleaned
