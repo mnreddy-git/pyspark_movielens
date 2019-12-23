@@ -9,7 +9,7 @@ import logging
 # Gets or creates a logger
 logger = logging.getLogger(__name__)
 
-# set log level
+# set log levelc
 logger.setLevel(logging.DEBUG)
 
 file_handler = logging.FileHandler(logFilePath)
@@ -34,6 +34,7 @@ def findSQLType(typeString):
         "STRUCT_FIELD": T.StructField
     }
     return switcher.get(typeString, "nothing")
+
 
 class MvlUtils():
     with open(conf_path, 'r') as conf_stream:

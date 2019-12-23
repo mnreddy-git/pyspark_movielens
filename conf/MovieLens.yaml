@@ -14,6 +14,7 @@ movieLens:
   paths:
     BASE_LOCATION: 'G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\Movie_lens_100K_dataset\\'
     TARGET_LOCATION: 'G:\\MNR_Hadoop\\MNR_Prac_and_material\\MNR_Hadoop Practice\\POC-REQUIREMENTS\\MovieLens_SparkAnalysis\\RESULTS\\{}'
+    LOG_LOCATION: 'C:\\Users\\naras_000\\PycharmProjects\\MNR_SPARKE2EProjects\\logs\\'
   options:
     HEADER_FALSE: 'false'
     HEADER_TRUE: 'true'
